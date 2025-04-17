@@ -1,0 +1,17 @@
+{
+  "name": "my-electron-ts-app",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "build": "tsc",
+  "start": "npm run build && electron ./dist/main.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "typescript": "^5.8.3"
+  }
+}
